@@ -8,11 +8,25 @@
     <title>Ecosystem</title>
 </head>
 <body>
-    <div class="title">
-        <h1>Andrei's Ecosystem</h1>
-    </div>
-    <div class="game">
-        <canvas id="canvas" width="600" height="600"></canvas>
+    <div class="app">
+        <div class="info">
+            <div class="title">
+                <h1>Andrei's Ecosystem</h1>
+            </div>
+            <div class="commands">
+                <div class="start-sim">
+                    <span>Start simulation: </span>
+                    <input type="checkbox" id="sim">
+                </div>
+                <div class="button">
+                    <button id="btn1">Add New Isopod</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="game">
+            <canvas id="canvas" width="600" height="600"></canvas>
+        </div>
     </div>
 
     <script src="main.js"></script>

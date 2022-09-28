@@ -8,6 +8,13 @@ body {
     font-family: 'consolas';
 }
 
+.app {
+    display: flex;
+    justify-content: space-around;
+
+    margin: 25px;
+}
+
 .title {
     text-align: center;
 }
@@ -17,13 +24,18 @@ body {
     font-weight: normal;
 }
 
-.game {
-    width: 100%;
-}
-
 #canvas {
     display: block;
     margin: 0 auto;
 
     border: 1px solid var(--second-color);
+}
+
+.commands {
+    margin: 25px;
+    text-align: center;
+}
+
+.button {
+    margin: 5px;
 }
