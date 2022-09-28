@@ -1,0 +1,29 @@
+body {
+    margin: 0 auto;
+
+    background-color: #181818;
+    --second-color: #747474;
+
+    color: #dfdddd;
+    font-family: 'consolas';
+}
+
+.title {
+    text-align: center;
+}
+
+.title h1 {
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.game {
+    width: 100%;
+}
+
+#canvas {
+    display: block;
+    margin: 0 auto;
+
+    border: 1px solid var(--second-color);
+}
